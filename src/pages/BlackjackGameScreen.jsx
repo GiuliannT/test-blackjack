@@ -869,7 +869,7 @@ export const BlackjackGameScreen = () => {
               <div className="w-16 sm:w-24 h-full mx-0.5 sm:mx-2">
                 {dealerCards.length < 1 && (
                   <button
-                    className="bg-blue-600 hover:bg-blue-600 text-white shadow shadow-black h-full font-bold rounded w-16 sm:w-24 text-xs sm:text-base"
+                    className="bg-blue-600 hover:bg-blue-700 text-white shadow shadow-black h-full font-bold rounded w-16 sm:w-24 text-xs sm:text-base"
                     onClick={playGame}
                   >
                     JUGAR
